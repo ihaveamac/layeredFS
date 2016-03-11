@@ -36,4 +36,4 @@ run("cp a.out bin/homebrew.elf ")
 run(OC+" -O binary a.out payload.bin -S")
 run("rm *.o")
 run("rm *.out")
-run('copy payload.bin ' + COPYTOPATH);
+run('cp payload.bin ' + COPYTOPATH);
