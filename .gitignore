@@ -1,5 +1,6 @@
 exefs.bin
 dump.bin
+code.bin
 *.plg
 payload.bin
 exefs/
