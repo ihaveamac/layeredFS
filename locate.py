@@ -155,5 +155,5 @@ if (langCode != -1) :
 	
 print(header);
 
-with open('plugin\\source\\autogen.h', 'w') as f:
+with open('plugin/source/autogen.h', 'w') as f:
 	f.write(header);
